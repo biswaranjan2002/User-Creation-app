@@ -1,0 +1,54 @@
+Data storage:
+      aisa kuch jahan par hum saare users ki info store kar sakte hain that is DATABASE
+
+Types of DBS-
+    SQL
+    No SQL
+
+SQL- data ko ek roop mein rakhna and that is tables
+
+No SQL- data is in the from and stored of objects
+e.g.
+{
+  name: "Biswa",
+  age: 25
+}
+
+No SQL: MongoDB is a object based data storage that follows No SQL
+
+Backend Contains 2 servers:
+      -Application server-> Node
+      -Database server-> MongoDB
+
+
+Terminologies:
+  -collections, documnets,schemas, keys, models
+
+  1> collections: it is a part of Database that is the combination of different entities of data
+  2> documnets: it is a part of collection
+
+
+Database -> Collections -> Document
+CODE
+---------------------------------------------------------------------
+
+
+
+CODE                 DATABASE
+----------------------------------------------------------------------
+mongoose.connect  -> database create
+model create      -> collection
+CREATE            -> document creation
+
+
+
+ORM:- object relational mapping
+ODM:- object document mapping
+
+_id in the mongoose object is 24 characters which is 12 bytes
+    - the starting 6 characters shows the timestamp when it is created
+
+
+findOneAndUpdate is used to find the required palce and update something
+
+find function gives you array and findOne gives you object
